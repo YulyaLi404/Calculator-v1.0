@@ -42,9 +42,7 @@ public class Calculator1 {
                 } else if (act == 2) {
 
                     try {
-                        if (num2 == 0) {
-                            System.out.println(line + "result: " + (num1 / num2));
-                        }
+                        System.out.println(line + "result: " + (num1 / num2));
                     } catch (Exception e) {
                         System.out.println(line + "На нуль делить нельзя!");
                     }
@@ -59,3 +57,21 @@ public class Calculator1 {
             }
     }
 }
+
+/* Output:
+
+Calculator v1.0
+
+Введите число: 4
+------------------------------
+
+1: '*'
+2: '/'
+3: '+'
+4: '-'
+Введите цифру нужной операции: 2
+------------------------------
+
+Введите число: 2
+------------------------------
+result: 2 */ 
