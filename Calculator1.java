@@ -43,7 +43,7 @@ public class Calculator1 {
 
                     try {
                         System.out.println(line + "result: " + (num1 / num2));
-                    } catch (Exception e) {
+                    } catch (ArithmeticException e) {
                         System.out.println(line + "На нуль делить нельзя!");
                     }
 
