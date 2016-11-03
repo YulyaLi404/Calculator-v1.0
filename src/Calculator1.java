@@ -44,7 +44,7 @@ public class Calculator1 {
                     try {
                         System.out.println(line + "result: " + (num1 / num2));
                     } catch (ArithmeticException e) {
-                        System.out.println(line + "На нуль делить нельзя!");
+                        System.out.println(line + "На ноль делить нельзя!" + "\n" + "result: ∞");
                     }
 
                 } else if (act == 3) {
